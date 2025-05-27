@@ -1,0 +1,17 @@
+#Tue May 27 08:50:54 CEST 2025
+bluej.teamsettings.ignore1=.*\\.class
+bluej.teamsettings.yourName=anlu
+bluej.teamsettings.git.server=github.com
+bluej.teamsettings.yourEmail=anna-maria.dittmar@gmx.de
+bluej.teamsettings.git.repositoryPrefix=/AnnaDittmar/Hasenlauf.git
+bluej.teamsettings.vcs=git
+bluej.teamsettings.user=AnnaDittmar
+bluej.teamsettings.ignore3=team\\.defs
+bluej.teamsettings.ignore2=bluej\\.pkh
+bluej.teamsettings.ignore5=.*\\~
+bluej.teamsettings.git.branch=
+bluej.teamsettings.ignore4=.*\\.ctxt
+bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.ignore6=.*\\\#
+bluej.teamsettings.git.protocol=https
+bluej.teamsettings.ignore8=\\.DS_Store
