@@ -10,8 +10,9 @@ public class world
     // Attribute
 
     
-    public world()
+    public world(int height)
     {
+        
     }
 
     // weitere Methoden
