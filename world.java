@@ -2,7 +2,7 @@
 /**
  * Tolle Klasse, die hoffentlich viel kann
  * 
- * @author (Ihr Name) 
+ * @author (Anna) 
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class world
@@ -16,6 +16,14 @@ public class world
     }
 
     // weitere Methoden
+
+    public void act(){
+        
+    }
+
+    public void addObject (actor objekt, int x, int y)){
+        System.out.println("Objekt wurde hinzugefügt");
+    }
 
 
 
