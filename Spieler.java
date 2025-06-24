@@ -18,6 +18,10 @@ public class Spielfigur extends Figur
       beschleunigung = 0.2;
       vx = 0.3;
       vy = 0.7;
+    //von Baeldung
+    String imagePath = "https://cdn.imgbin.com/3/17/19/imgbin-pixel-art-others-9T7T4mLjAN3c5t9S8jQnztXjS.jpg"
+     BufferedImage myPicture = ImageIO.read(new File(imagePath));
+    //
    }
    /* überschriebene Methode der Klasse Sprite, 
       wird 30 Mal / Sekunde aufgerufen */
