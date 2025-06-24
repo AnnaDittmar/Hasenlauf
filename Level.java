@@ -7,6 +7,7 @@ public Level (int breite, int hoehe, block[] bloecke) {
   this.breite = breite;
   this.hoehe = hoehe;
   this.bloecke = bloecke;
+  Spieler Haeschen = new Spieler(300,400);
 }
 
 public void darstellen() {
