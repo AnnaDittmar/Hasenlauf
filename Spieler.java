@@ -1,6 +1,6 @@
 /**
  * sollte eine lenkbare Spielfigur erzeugen.
- * 
+ * übernommen von Spacejunk (vom Raumschiff)
  * @author Anna
  * @version 1.0
  */
@@ -22,10 +22,21 @@ public class Spielfigur extends Figur
    /* überschriebene Methode der Klasse Sprite, 
       wird 30 Mal / Sekunde aufgerufen */
    void act() {
-      move(2, 1);
+       if(isKeyDown(Key.ArrowLeft)) {
+         vx = vx - beschleunigung;
+      }
+      if(isKeyDown(Key.ArrowRight)) {
+         vx = vx + beschleunigung;
+      }
+      if(isKeyDown(Key.ArrowUp)) {
+         vy = vy - beschleunigung;
+      }
+      if(isKeyDown(Key.ArrowDown)) {
+         vy = vy + beschleunigung;
+      }
+    if(centerX < 30 || centerX > 770) {
+         move(-vx, 0);
+         vx = 0;
    }
 }
-// Deklaration einer Variablen der Klasse Raumschiff
-Raumschiff raumschiff1;
-// Erzeugen eines Raumschiff-Objekts
-raumschiff1 = new Raumschiff("Captain Körk", 100, 50);
+
