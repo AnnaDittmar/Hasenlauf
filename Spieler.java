@@ -4,7 +4,7 @@
  * @author Anna
  * @version 1.0
  */
-public class Spielfigur extends Figur
+public class Spielfigur extends Figur{
  String name;
    double vx;
    double vy;
@@ -19,7 +19,7 @@ public class Spielfigur extends Figur
       vx = 0.3;
       vy = 0.7;
     //von Baeldung
-    String imagePath = "https://cdn.imgbin.com/3/17/19/imgbin-pixel-art-others-9T7T4mLjAN3c5t9S8jQnztXjS.jpg"
+    String imagePath = "https://cdn.imgbin.com/3/17/19/imgbin-pixel-art-others-9T7T4mLjAN3c5t9S8jQnztXjS.jpg";
      BufferedImage myPicture = ImageIO.read(new File(imagePath));
     //
    }
@@ -43,4 +43,4 @@ public class Spielfigur extends Figur
          vx = 0;
    }
 }
-
+}
