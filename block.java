@@ -12,7 +12,7 @@ block(int x, int y, String Farbe){
 
 void darstellen() {
   PositionSetzen(x,y);
-  SichtbarkeitStzen(true);
+  SichtbarkeitSetzen(true);
 }
 
 public int getX() {
@@ -23,3 +23,4 @@ public int getY() {
   return y;
 }
   
+}
