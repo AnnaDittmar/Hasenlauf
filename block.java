@@ -4,10 +4,10 @@ int x;
 int y;
 String Farbe;
 
-Kiste(int x, int y, String Farbe){
+block(int x, int y, String Farbe){
   this.x = x;
   this.y = y;
-  this.Farbe = Farbe
+  this.Farbe = Farbe;
 }
 
 void darstellen() {
