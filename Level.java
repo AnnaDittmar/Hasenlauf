@@ -7,7 +7,7 @@ public Level (int breite, int hoehe, block[] bloecke) {
   this.breite = breite;
   this.hoehe = hoehe;
   this.bloecke = bloecke;
-  Spieler Haeschen = new Spieler(300,400);
+  Spielfigur Haeschen = new Spielfigur("robert",300,400);
 }
 
 public void darstellen() {
@@ -31,14 +31,15 @@ public void darstellen() {
 
 public static void main(String[] args) {
   block[] bloecke = {
-    new block(2,4),
-    new block(3,4),
-    new block(4,4),
-    new block(5,4),
-    new block(6,3),
-    new block(7,2) 
+    new block(2,4,"braun"),
+    new block(3,4,"gruen"),
+    new block(4,4,"blau"),
+    new block(5,4,"gelb"),
+    new block(6,3,"rot"),
+    new block(7,2,"orange") 
   };
 
   Level level = new Level(10, 6, bloecke);
   level.darstellen()
-    
+    }
+}
