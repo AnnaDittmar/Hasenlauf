@@ -4,7 +4,7 @@
  * @author Anna
  * @version 1.0
  */
-public class Spielfigur extends Figur{
+public class Spielfigur extends Sprite{
  String name;
    double vx;
    double vy;
